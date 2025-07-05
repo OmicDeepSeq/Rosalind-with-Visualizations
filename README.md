@@ -4,4 +4,5 @@ My solutions to problems from [Rosalind](https://rosalind.info/problems/list-vie
 ## Question 1: DNA
 
 The problem given was to count the number of bases in the DNA Sequence given. Used Matplotlib to create the below visualization: 
+
 ![DNA Nulceotide count](Question1_DNA/Visualization/PlotAttempt1.png)
