@@ -1,0 +1,279 @@
+graph Punnett {
+	"1YY" [label=<<TABLE> 
+                                                     <TR> 
+                                                         <TD>YY</TD> 
+                                                         <TD>16/48</TD> 
+                                                     </TR>
+                                                    </TABLE>> shape=plaintext]
+	"1YY2YY" [label=<<TABLE> 
+                                                             <TR> 
+                                                                 <TD>YY</TD> 
+                                                                 <TD>15/47</TD> 
+                                                             </TR> 
+                                                             </TABLE>> shape=plaintext]
+	"1YY2YYpun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>Y</TD>
+                                         <TD>Y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>YY</TD>
+                                         <TD>YY</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>YY</TD>
+                                         <TD>YY</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>4/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1YY" -- "1YY2YY"
+	"1YY2YY" -- "1YY2YYpun"
+	"1YY2Yy" [label=<<TABLE> <TR> <TD>Yy</TD> <TD>16/47</TD> </TR> </TABLE>> shape=plaintext]
+	"1YY2Yypun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>Y</TD>
+                                         <TD>Y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>YY</TD>
+                                         <TD>Yy</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>YY</TD>
+                                         <TD>Yy</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>4/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1YY" -- "1YY2Yy"
+	"1YY2Yy" -- "1YY2Yypun"
+	"1YY2yy" [label=<<TABLE> <TR> <TD>yy</TD> <TD>16/47</TD> </TR> </TABLE>> shape=plaintext]
+	"1YY2yypun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>Y</TD>
+                                         <TD>Y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>Yy</TD>
+                                         <TD>Yy</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>Yy</TD>
+                                         <TD>Yy</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>4/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1YY" -- "1YY2yy"
+	"1YY2yy" -- "1YY2yypun"
+	"1Yy" [label=<<TABLE> 
+                                                     <TR> 
+                                                         <TD>Yy</TD> 
+                                                         <TD>16/48</TD> 
+                                                     </TR>
+                                                    </TABLE>> shape=plaintext]
+	"1Yy2YY" [label=<<TABLE> <TR> <TD>YY</TD> <TD>16/47</TD> </TR> </TABLE>> shape=plaintext]
+	"1Yy2YYpun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>Y</TD>
+                                         <TD>y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>YY</TD>
+                                         <TD>YY</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>yY</TD>
+                                         <TD>yY</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>4/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1Yy" -- "1Yy2YY"
+	"1Yy2YY" -- "1Yy2YYpun"
+	"1Yy2Yy" [label=<<TABLE> 
+                                                             <TR> 
+                                                                 <TD>Yy</TD> 
+                                                                 <TD>15/47</TD> 
+                                                             </TR> 
+                                                             </TABLE>> shape=plaintext]
+	"1Yy2Yypun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>Y</TD>
+                                         <TD>y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>YY</TD>
+                                         <TD>Yy</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>yY</TD>
+                                         <TD>yy</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>3/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1Yy" -- "1Yy2Yy"
+	"1Yy2Yy" -- "1Yy2Yypun"
+	"1Yy2yy" [label=<<TABLE> <TR> <TD>yy</TD> <TD>16/47</TD> </TR> </TABLE>> shape=plaintext]
+	"1Yy2yypun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>Y</TD>
+                                         <TD>y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>Yy</TD>
+                                         <TD>Yy</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>yy</TD>
+                                         <TD>yy</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>2/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1Yy" -- "1Yy2yy"
+	"1Yy2yy" -- "1Yy2yypun"
+	"1yy" [label=<<TABLE> 
+                                                     <TR> 
+                                                         <TD>yy</TD> 
+                                                         <TD>16/48</TD> 
+                                                     </TR>
+                                                    </TABLE>> shape=plaintext]
+	"1yy2YY" [label=<<TABLE> <TR> <TD>YY</TD> <TD>16/47</TD> </TR> </TABLE>> shape=plaintext]
+	"1yy2YYpun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>y</TD>
+                                         <TD>y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>yY</TD>
+                                         <TD>yY</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>yY</TD>
+                                         <TD>yY</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>4/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1yy" -- "1yy2YY"
+	"1yy2YY" -- "1yy2YYpun"
+	"1yy2Yy" [label=<<TABLE> <TR> <TD>Yy</TD> <TD>16/47</TD> </TR> </TABLE>> shape=plaintext]
+	"1yy2Yypun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>y</TD>
+                                         <TD>y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>Y</TD>
+                                         <TD>yY</TD>
+                                         <TD>yy</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>yY</TD>
+                                         <TD>yy</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>2/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1yy" -- "1yy2Yy"
+	"1yy2Yy" -- "1yy2Yypun"
+	"1yy2yy" [label=<<TABLE> 
+                                                             <TR> 
+                                                                 <TD>yy</TD> 
+                                                                 <TD>15/47</TD> 
+                                                             </TR> 
+                                                             </TABLE>> shape=plaintext]
+	"1yy2yypun" [label=<<TABLE BORDER = '0'>
+                         <TR>
+                             <TD>
+                                 <TABLE>
+                                     <TR>
+                                         <TD> </TD>
+                                         <TD>y</TD>
+                                         <TD>y</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>yy</TD>
+                                         <TD>yy</TD>
+                                     </TR>
+                                     <TR>
+                                         <TD>y</TD>
+                                         <TD>yy</TD>
+                                         <TD>yy</TD>
+                                     </TR>
+                                 </TABLE>
+                             </TD>
+                             <TD>0/4</TD>
+                         </TR>
+                    </TABLE>> shape=plaintext]
+	"1yy" -- "1yy2yy"
+	"1yy2yy" -- "1yy2yypun"
+	rankdir=LR
+}
