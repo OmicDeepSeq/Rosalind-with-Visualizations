@@ -11,4 +11,4 @@ The problem given was to count the number of bases in the DNA Sequence given. Us
 
 The problem given was to convert a DNA strand to an RNA strand. Used Matplotlib and biopython library to wrangle the data and create the below visualization: 
 
-![RNA Nulceotide count](Question2_RNA/Visualization/PlotAttempt1.png)
+![RNA Nulceotide count](Question2_RNA/Visualization/Attempt1.png)
